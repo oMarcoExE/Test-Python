@@ -9,7 +9,6 @@ peso = float(input ("Seu peso: "))
 
 IMC = peso / (altura ** 2)
 
-
 print(f"Olá {nome}!")
 print(f"Sua idade é de {idade} anos")
 print(f"Seu IMC é de {IMC}")
