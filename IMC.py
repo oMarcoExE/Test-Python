@@ -1,7 +1,7 @@
 # Calculo de IMC
 
 ### nome, idade, peso, altura // e calcular imc
-
+print("Calculo de IMC\n")
 nome = input("Olá! Qual seu nome?: ")
 idade = input("Qual sua idade? ")
 altura = float(input("Sua altura: "))
