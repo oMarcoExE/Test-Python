@@ -10,7 +10,7 @@ elif nota > 70 and nota <= 79:
     print("Nota = C")
 elif nota > 80 and nota <= 89:
     print("Nota = B")
-elif nota > 90 and nota <= 100:
+elif nota >= 90 and nota <= 100:
     print("Nota = A")
 else: 
     print("Número não válido!")
