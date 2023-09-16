@@ -11,6 +11,9 @@ elif operador == '-':
 elif operador == '*':
     print("Resultado = ", nmr1 * nmr2)
 elif operador == '/':
-    print("Resultado = ", nmr1 / nmr2)
+    if nmr2 == 0:
+        print("Não é possívle dividir pro 0!")
+    else:
+        print("Resultado = ", nmr1 / nmr2)
 else:
     print("Operador Lógico não reconhecido! Utilize +, -, *, ou / ")
