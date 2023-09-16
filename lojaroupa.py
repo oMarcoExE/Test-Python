@@ -1,4 +1,4 @@
-#Programa desenvolvido para uma atividade de Loja de roupa 
+#Programa desenvolvido para uma atividade de Loja de roupas 
 totalcompra = float(input("Digite o Valor total de compra: "))
 pagamento = input("Qual forma de pagamento? (A Vista / A Prazo): ")
 
