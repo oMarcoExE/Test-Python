@@ -1,4 +1,4 @@
-
+#Programa desenvolvido para uma atividade de Loja de roupa 
 totalcompra = float(input("Digite o Valor total de compra: "))
 pagamento = input("Qual forma de pagamento? (A Vista / A Prazo): ")
 
@@ -9,7 +9,6 @@ if pagamento == 'A Vista':
         print("O Valor será de: ", totalcompra - (totalcompra * 15/100))
     elif totalcompra > 1000:
         print("O Valor será de: ", totalcompra - (totalcompra * 20/100))
-
 
 if pagamento == 'A Prazo':
     parcelas = int(input("Informe a quantidade de parcelas: "))
